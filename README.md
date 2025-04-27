@@ -1,10 +1,15 @@
 # HTML to Ghost Blog JSON Converter
 
+![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+
 네이버 포스트 HTML 백업 파일을 Ghost 블로그 플랫폼의 JSON 형식으로 변환하는 도구입니다.
 
 ## 프로젝트 소개
 
 이 프로젝트는 네이버 포스트에서 백업한 HTML 파일을 Ghost 블로그 플랫폼에서 사용할 수 있는 JSON 형식으로 변환합니다. 이 도구를 사용하면 네이버 포스트 콘텐츠를 Ghost 블로그로 쉽게 마이그레이션할 수 있습니다.
+
+현재 버전은 v1.0.0입니다. 자세한 변경 이력은 [CHANGELOG.md](CHANGELOG.md)를 참조하세요.
 
 ### 주요 기능
 
@@ -224,3 +229,7 @@ python3 html_to_ghost.py --sample POST_ARTICLE_001/20160202_3509403_수다쟁이
 ## 기여
 
 버그 신고, 기능 요청, 코드 기여는 언제나 환영합니다. GitHub 이슈 또는 풀 리퀘스트를 통해 참여해 주세요.
+
+## 릴리스
+
+이 프로젝트는 [Semantic Versioning](https://semver.org/lang/ko/)을 준수합니다. GitHub 릴리스 생성 방법은 [RELEASE.md](RELEASE.md) 파일을 참조하세요.
